@@ -10,7 +10,7 @@ class Appointment:
         self.state = state  
 
     def schedule(self):  
-        return (f"The Appointment scheduled for: {self.patient_name} with Dr. {self.doctor_name} "  
+        return (f"Appointment is now scheduled for {self.patient_name} with Dr. {self.doctor_name} "  
                 f"on {self.date} at {self.time} in {self.city}, {self.state}.")  
 
 # Sample usage  
